@@ -9,7 +9,7 @@ public partial class MainView : UserControl
     {
         InitializeComponent();
 
-        FileAColumns.ItemsSource = Array.Empty<string>();
+        FileAColumns.ItemsSource = new string[] { "item", "product" };// Array.Empty<string>();
         FileBColumns.ItemsSource = Array.Empty<string>();
     }
 }
